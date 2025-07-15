@@ -1,31 +1,29 @@
-name: 🔄 Sync fork with upstream main
+name: 🔄 Sync fork with upstream
+
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout fork repo
-        uses: actions/checkout@v3
+      - name: Checkout fork’s main
+        uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
 
-      - name: Set up upstream remote
+      - name: Set upstream remote
         run: |
           git remote add upstream https://github.com/WildCodeSchool/wankul-pocket.git
-          git fetch upstream main
+          git fetch upstream
 
-      - name: Merge upstream/main
-        run: |
-          git merge upstream/main --no-edit
-
-      - name: Push changes to fork
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Sync upstream → main
+        uses: XueMoMo/sync-fork-action@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          upstream_repository: ORIGINAL_OWNER/REPO
+          target_branch: main
+          github_token: ${{ secrets.PAT_TOKEN }}
