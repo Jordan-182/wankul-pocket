@@ -25,7 +25,7 @@ jobs:
       - name: Add upstream remote if missing
         run: |
           if ! git remote | grep -q upstream; then
-            git remote add upstream https://github.com/ORIGINAL-OWNER/REPO.git
+            git remote add upstream https://github.com/WildCodeSchool/wankul-pocket.git
           else
             echo "🌀 Upstream already exists"
           fi
