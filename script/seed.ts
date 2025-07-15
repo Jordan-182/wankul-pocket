@@ -23,7 +23,7 @@ const seed = async () => {
       password: MYSQL_DB_PASSWORD,
       database: MYSQL_DB_NAME,
     });
-
+    await db.execute("SET FOREIGN_KEY_CHECKS = 0");
     await db.query("DELETE FROM card");
     await db.query("DELETE FROM booster");
     await db.query("DELETE FROM user");
@@ -69,13 +69,45 @@ const seed = async () => {
       );
     }
 
-    for (const { name, mission, reward } of quests) {
+    for (const {
+      name,
+      mission,
+      reward,
+      category,
+      goal_target,
+      goal_quantity,
+      quest_type,
+    } of quests) {
       await db.query(
-        "INSERT INTO quest (name, mission, reward) VALUES (?, ?, ?)",
-        [name, mission, reward]
+        "INSERT INTO quest (name, mission, reward, category, goal_target, goal_quantity, quest_type) VALUES (?, ?, ?, ?, ?, ?, ?)",
+        [
+          name,
+          mission,
+          reward,
+          category,
+          goal_target,
+          goal_quantity,
+          quest_type,
+        ]
       );
     }
 
+    await db.query("DELETE FROM profil_picture");
+    await db.query("ALTER TABLE profil_picture AUTO_INCREMENT = 1");
+
+    await db.query(`
+
+  INSERT INTO profil_picture (image_path) VALUES
+  ("perso1.png"),
+  ("perso2.png"),
+  ("perso3.png"),
+  ("perso4.png"),   
+  ("perso5.png"),
+  ("perso6.png"),
+  ("perso7.png"),
+  ("perso8.png");
+`);
+    await db.execute("SET FOREIGN_KEY_CHECKS = 1");
     await db.end();
     console.log("🌱 Database seeded successfully");
   } catch (err) {

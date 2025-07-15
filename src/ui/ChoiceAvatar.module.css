@@ -36,7 +36,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   justify-items: center;
   align-items: center;
@@ -59,19 +59,6 @@
   transform: scale(1.05);
 }
 
-.button {
-  padding: var(--buttonPadding);
-  background: var(--bubbleGradient);
-  color: var(--textColor);
-  font-size: var(--buttonFontSize);
-  font-weight: var(--buttonFontWeight);
-  border-radius: var(--buttonBorderRadius);
-  border: var(--buttonBorder);
-  cursor: pointer;
-  transition: var(--buttonTransition);
-  margin-top: 1rem;
-}
-
 .button:hover {
   background-color: #0059c1;
 }
@@ -83,4 +70,16 @@
   text-align: center;
   font-weight: bold;
   font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

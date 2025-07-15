@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./Header.module.css";
+import { publicRoutes } from "@/data/ROUTES";
+import BananaLoader from "./BananaLoader";
 
 export default function Header() {
   const { user } = useUserContext();
@@ -13,14 +15,12 @@ export default function Header() {
   if (!user) {
     return (
       <header className={styles.globalHeader}>
-        <Link href={"/"}>
-          <Image
-            src={"/headerLogo.png"}
-            alt="Logo Wankul Pocket"
-            height={50}
-            width={125}
-          />
-        </Link>
+        <Image
+          src={"/headerLogo.png"}
+          alt="Logo Wankul Pocket"
+          height={50}
+          width={125}
+        />
       </header>
     );
   }
@@ -28,7 +28,7 @@ export default function Header() {
     <header className={styles.globalHeader}>
       <Link href={"/profil"} className={styles.profilLink}>
         <Image
-          src={user?.profil_picture_url}
+          src={`${publicRoutes.PROFILS}/${user.profil_picture_url}`}
           alt="Avatar de profil"
           height={50}
           width={50}
@@ -43,12 +43,7 @@ export default function Header() {
         />
       </Link>
       <Link href={"/booster"} className={styles.bananasLink}>
-        <Image
-          src={"/banana.png"}
-          alt="Compteur de bananes"
-          height={35}
-          width={35}
-        />
+        <BananaLoader />
         <p>{user?.bananas}</p>
       </Link>
       <nav className={styles.headerNav}>
