@@ -59,7 +59,7 @@ export async function POST(request: NextRequest) {
   const segments = request.nextUrl.pathname.split("/").filter(Boolean);
   const email = segments[segments.length - 2];
 
-  const auth = await checkUserAuth(email);
+  const auth = await checkUserAuth();
   if (!auth.authorized) return auth.response;
 
   try {
@@ -116,24 +116,8 @@ export async function PATCH(req: NextRequest) {
       );
     }
 
-    const auth = await checkUserAuth(userEmail);
+    const auth = await checkUserAuth();
     if (!auth.authorized) return auth.response;
-
-    if (
-      typeof quantity !== "number" ||
-      isNaN(quantity) ||
-      quantity < 1 ||
-      typeof id !== "number" ||
-      isNaN(id) ||
-      typeof user_id !== "number" ||
-      isNaN(user_id) ||
-      user_id < 0
-    ) {
-      return NextResponse.json(
-        { error: collectionMessages.invalidData },
-        { status: 400 }
-      );
-    }
 
     const [result] = (await db.query(
       "UPDATE collection SET quantity = ? WHERE card_id = ? AND user_id = ?",
