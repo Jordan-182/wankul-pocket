@@ -17,7 +17,9 @@ export default function CollectionContainer({ collection }: Props) {
   const [sort, setSort] = useState("rarity-asc");
   const seasonOne: number = 1;
   const seasonTwo: number = 2;
-  const totalCards: number = 335;
+  const seasonOneTotal: number = 180;
+  const seasonTwoTotal: number = 155;
+  const totalCards: number = seasonOneTotal + seasonTwoTotal;
   const { seasonOneCards, seasonTwoCards } = useMemo(() => {
     const filteredAndSorted = collection
       .filter((card) => card.name.toLowerCase().includes(search.toLowerCase()))
@@ -143,14 +145,14 @@ export default function CollectionContainer({ collection }: Props) {
           Saison 1 : Origins
         </h2>
         <p className={styles.counter}>
-          Cartes obtenues : {seasonOneCards?.length} / 180
+          Cartes obtenues : {seasonOneCards?.length} / {seasonOneTotal}
         </p>
         {renderCards(seasonOneCards)}
         <h2 className={styles.season} id="seasonTwo">
           Saison 2 : Campus
         </h2>
         <p className={styles.counter}>
-          Cartes obtenues : {seasonTwoCards?.length} / 180
+          Cartes obtenues : {seasonTwoCards?.length} / {seasonTwoTotal}
         </p>
         {renderCards(seasonTwoCards)}
       </section>
