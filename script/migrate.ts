@@ -46,6 +46,7 @@ CREATE TABLE IF NOT EXISTS card (
     is_holo BOOLEAN DEFAULT FALSE,
     quote TEXT, 
     booster_id INT NOT NULL,
+    holo_mask VARCHAR(255),
     FOREIGN KEY (booster_id) REFERENCES booster(id)
 );
 

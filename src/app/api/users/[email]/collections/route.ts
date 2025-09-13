@@ -26,7 +26,7 @@ export async function GET(_req: NextRequest) {
   try {
     let query = `
       SELECT c.id, c.name, c.image_path, c.card_number, c.clan, c.rarity, c.official_rate, 
-             c.is_holo, c.quote, c.booster_id, co.quantity, b.season, b.set_name
+             c.is_holo, c.quote, c.booster_id, c.holo_mask, co.quantity, b.season, b.set_name
       FROM card AS c
       JOIN collection AS co ON c.id = co.card_id
       JOIN user AS u ON u.id = co.user_id

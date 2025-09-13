@@ -10,7 +10,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 20,
@@ -257,7 +276,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 21,
@@ -270,7 +290,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 22,
@@ -283,7 +304,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 23,
@@ -296,7 +318,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 24,
@@ -309,7 +332,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 25,
@@ -322,7 +346,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 26,
@@ -335,7 +360,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 27,
@@ -348,7 +374,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 28,
@@ -361,7 +388,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 29,
@@ -374,7 +402,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 30,
@@ -387,7 +416,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": null,
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 31,
@@ -400,7 +430,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "C’est la rotule d’embrayage de la culasse qu’a pété. On sera dans les 5000 balles, ma bonne dame.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 32,
@@ -413,7 +444,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Sur le côté droit, on trouve la jauge à huile. Sur le côté gauche, on trouve le côté gauche.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 33,
@@ -426,7 +458,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Quand je vois les flammes sur mon camtar, ça me donne envie de chialer.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 34,
@@ -439,7 +472,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Souvent vu sur l’A1 à 150 km/h, avec du pinard, un sandwich rosette et Johnny à fond dans la cabine.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 35,
@@ -452,7 +486,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Le saviez-vous ? Brico Sympa est né de la collaboration entre 2 types qui savent pas percer un mur.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 36,
@@ -465,7 +500,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Vu à la télé, Socisseau est LA révolution de la saucisse sous vide au goût douteux !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 37,
@@ -478,7 +514,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Aucun de ses propriétaires n’a jamais eu à se plaindre d'elle (ils sont tous morts).",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 38,
@@ -491,7 +528,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Elle fait peur comme ça, mais en réalité, si on apprend à la connaître, elle est super sympa.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 39,
@@ -504,7 +542,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Allô, Houston ! Il y a un invité surprise dans le vaisseau, vous pourriez m’aider ?",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 40,
@@ -517,7 +556,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Ses dernières paroles ont été : “Hal, pourquoi tu as ouvert tous les SAS de sécurité ?”",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 41,
@@ -530,7 +570,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Couché tout le temps au 1er round, mais ne baisse jamais les bras car monte toujours sa garde.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 42,
@@ -543,7 +584,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "La seule ceinture qu’il a eue était celle de sécurité dans sa Peugeot 206.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 43,
@@ -556,7 +598,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Eeeeeuuuh... zbaaaarg mhhhh oooooergggg !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 44,
@@ -569,7 +612,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Blaaaarg mhhhhoooooo euuuuuoooo saucisse zbeeeeerg !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 45,
@@ -582,7 +626,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Depuis qu’il a quitté la ville pour un village, il a la belle vie à la ferme de Tournan-en-Brie.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 46,
@@ -595,7 +640,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il a tout plaqué et est parti élever des vaches par passion. Le lait qu’il produit est dégueulasse.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 47,
@@ -608,7 +654,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Wouf wouf !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 48,
@@ -621,7 +668,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Gruik, gruik !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 49,
@@ -634,7 +682,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "L’avantage est que, dans sa fromagerie, il peut faire un prout bien odorant en toute discrétion.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 50,
@@ -647,7 +696,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Jambon, saucisson, terrine, rillettes, mais surtout un excellent boudin qui pue bien comme il faut.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 51,
@@ -660,7 +710,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il paraît qu’il a racheté tous les hôpitaux pour en faire des casinos",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 52,
@@ -673,7 +724,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Inventeur de la paille saucisse et de l’œuf sur PC, il est désormais étudié pour son “intelligence”.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 53,
@@ -686,7 +738,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il pense encore que le tacos saucisse va révolutionner le monde de la cuisine.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 54,
@@ -699,7 +752,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il est incapable de compter le nombre de dents de sa fourche, mais y a pas plus calé en cochon !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 55,
@@ -712,7 +766,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Une fois le paysan voisin lui a volé une chèvre. Pour se venger, il lui a cramé sa baraque.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 56,
@@ -725,7 +780,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Célèbre inventeur du nutri-score F et reconnu pour sa cuisine généreuse (voire dangereuse).",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 57,
@@ -738,7 +794,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il a participé brièvement à une émission de cuisine, intoxiqué tout le jury et brûlé 50% du studio.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 58,
@@ -751,7 +808,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il semble avoir trouvé le jouet de maman.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 59,
@@ -764,7 +822,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Avec 18 compotes par jour, bébé est obligé de rester constamment sur le pot.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 60,
@@ -777,7 +836,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "J’ai abattu un cerf ce matin ! Par contre, super bizarre, il avait un anorak jaune et des moufles.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 61,
@@ -790,7 +850,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Mesdames, messieurs, bienvenue à bord du vol 370, veuillez attacher vos ceintures, ça va secouer",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 62,
@@ -803,7 +864,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Tout le village a voté pour le pendre la première nuit alors qu’il était Maire depuis 5 minutes.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 63,
@@ -816,7 +878,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Une fois il s’est transformé en loup-garou mais vu qu’il est végétarien, il est resté super sympa.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 64,
@@ -829,7 +892,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "On lui a ordonné de protéger le bien le plus précieux du château : la cave à bière.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 65,
@@ -842,7 +906,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il a bravé tous les dangers pour sauver la princesse de Montmirail (marcher sous la pluie).",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 66,
@@ -855,7 +920,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il utilise le pointillisme, comme un de ses camarades de classe autrichiens d’ailleurs.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 67,
@@ -868,7 +934,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Beaucoup de talent, mais si vous voulez le féliciter pour ça, alors ne parlez qu’à sa droite.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 68,
@@ -881,7 +948,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Le pauvre, il ne voulait être pompier que pour draguer, il ne savait pas qu’il allait être sur le terrain.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 69,
@@ -894,7 +962,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Un vrai pompier choisira toujours de sauver en premier ce qu’il y a de plus important.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 70,
@@ -907,7 +976,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Demandez-lui une potion d’invisibilité et vous aurez une chance sur deux d’être empoisonné.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 71,
@@ -920,7 +990,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Une fois il a fait disparaître le petit Jimmy pendant un spectacle, il n’est jamais réapparu.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 72,
@@ -933,7 +1004,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Surnommé “l’Architecte”, il aurait construit un 15m² intégralement en carton.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 73,
@@ -946,7 +1018,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il a sorti une chanson à succès sur sa liberté de penser et ça s'est fini par un contrôle fiscal.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 74,
@@ -959,7 +1032,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Habitué du camping des Vaguelettes depuis 30 ans, tireur de slips et responsable des apéros.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 75,
@@ -972,7 +1046,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Détenteur du record de tubes de Biafine utilisés en une semaine.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 76,
@@ -985,7 +1060,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Très gentil mais incapable de retenir “pain viande salade pain”.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 77,
@@ -998,7 +1074,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il fait pipi dans les frites des clients qui ne disent pas bonjour.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 78,
@@ -1011,7 +1088,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il a utilisé son fémur comme arme contre le dernier aventurier venu explorer sa grotte.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 79,
@@ -1024,7 +1102,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "Il garde le trésor enfoui de la caverne Longmur depuis plus de 300 ans. Il a avoué s’ennuyer un peu.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 80,
@@ -1037,7 +1116,8 @@
     "official_rate": 45,
     "is_holo": false,
     "quote": "C’est lui qui a inventé la formation tortue, en référence à l’animal du même nom (la tortue).",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 81,
@@ -1050,7 +1130,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "La race d’araignées était super bof. Du coup, il fait 50 kg, ne sait pas se battre et livre des pizzas.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 82,
@@ -1063,7 +1144,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Si vous pouviez vous dépêcher de prendre la photo, car le marteau est très lourd.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 83,
@@ -1076,7 +1158,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Soldat d’élite reconnu, il perd cependant tous ses moyens quand un Russe crie dans son micro.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 84,
@@ -1089,7 +1172,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il faut que je maîtrise mon nova pomme d’amour comme je maîtrise ma vie.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 85,
@@ -1102,7 +1186,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il a vécu 20 ans dans le placard d’enfance de Terracid, mais n’a jamais été remarqué (dépressif).",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 86,
@@ -1115,7 +1200,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il a œuvré toute sa vie contre l’addiction aux drogues chez les développeurs de jeux.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 87,
@@ -1128,7 +1214,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Autrefois YouTuber émérite, Seb vit désormais dans la jungle au sein d’une famille de chimpanzés.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 88,
@@ -1141,7 +1228,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Grand entrepreneur et futur astronaute, mais a tendance à égarer les objets offerts par ses amis.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 89,
@@ -1154,7 +1242,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "On raconte que son navire a coulé dans le sud du Pacifique (à cause du poids de l’or dans la cale).",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 90,
@@ -1167,7 +1256,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il aime l’or, le sang, la bagarre, mais aussi l’odeur des croissants chauds de la boulangerie.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 91,
@@ -1180,7 +1270,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Malgré les difficultés, il insiste pour entretenir une romance hétéro curieux avec son compagnon.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 92,
@@ -1193,7 +1284,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il ne l’avouera pas, mais il cherche par tous les moyens à s’accaparer la rondelle de son compagnon.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 93,
@@ -1206,7 +1298,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il fait croire à tout le monde qu’il n’a pris aucun plaisir en embrassant sa propre mère.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 94,
@@ -1219,7 +1312,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "A la base, il voulait juste mettre de la nitro dans sa DeLorean, puis ça a dégénéré.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 95,
@@ -1232,7 +1326,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "J’ai déjà vu le maréchal Pétain en slip. Eh bé, croyez-moi, c’était pas beau à voir !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 96,
@@ -1245,7 +1340,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Moi, de mon temps, on avait un bâton et des cailloux pour s’amuser et c’était très bien comme ça !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 97,
@@ -1258,7 +1354,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "A seulement 16 ans, comme chaque viewer du tchat, il est à la fois archéologue, boulanger, comptable, mécanicien...",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 98,
@@ -1271,7 +1368,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Ne vous fiez pas à son air innocent, elle a écrit pas moins de 326 fanfictions érotiques sur ses YouTubeurs préférés.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 99,
@@ -1284,7 +1382,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Les journaux l’appellent “French Monster” ou “Celui qui a pris une belle tête par Terracid”.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 100,
@@ -1297,7 +1396,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il aime Noël, sa casquette, mais surtout assassiner des gens discrètement.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 101,
@@ -1310,7 +1410,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "S’il mange après minuit, ce monstre est capable de péter et roter indéfiniment.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 102,
@@ -1323,7 +1424,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Avant, il avait une ferme avec beaucoup d’animaux très mignons, mais un jour, il a eu besoin d’XP...",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 103,
@@ -1336,7 +1438,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Ne lui montrez surtout pas un diamant, sinon il devient inarrêtable.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 104,
@@ -1349,7 +1452,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Plus qu’une goutte de polymorphie et ma potion contre l’acné juvénile sera enfin prête.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 105,
@@ -1362,7 +1466,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il veut faire des saloperies avec la chaussette de son maître.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 106,
@@ -1375,7 +1480,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Quand il s’énerve, il est capable de déverser plus de sel que toute la mer Méditerranée.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 107,
@@ -1388,7 +1494,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Quand il rage, il a le pouvoir de faire augmenter en flèche votre hypertension artérielle.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 108,
@@ -1401,7 +1508,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Drôle, musclé, chanteur, a-t-il un défaut ? Aucun, sauf son furoncle entre les fesses depuis 2014.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 109,
@@ -1414,7 +1522,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il est très gentil, mais ne tombez surtout pas sur son double maléfique Diabo.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 110,
@@ -1427,7 +1536,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "C’est le premier à avoir avoué qu’il y avait assez de place pour tout le monde dans cette ville.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 111,
@@ -1440,7 +1550,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il a gagné son duel contre McNuggets. En même temps, c’était pas compliqué, McNuggets était aveugle.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 112,
@@ -1453,7 +1564,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Partir en intervention le ventre vide, c’est irresponsable, voire carrément dangereux !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 113,
@@ -1466,7 +1578,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Mon bon monsieur, votre femme qui accouche, c’est pas mon problème. Ici, c’est une place réservée.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 114,
@@ -1479,7 +1592,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il n'a absolument pas le temps de réparer sa douche, il a raid tous les soirs !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 115,
@@ -1492,7 +1606,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "OUH OUH AAAAH AH OUH caca OUUUUUH !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 116,
@@ -1505,7 +1620,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "La seule enquête qu’il n’a pas encore résolue, c’est celle du fantôme à la kékette tordue.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 117,
@@ -1518,7 +1634,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il aurait proposé à la production de jeter les candidats éliminés dans une cage aux lions.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 118,
@@ -1531,7 +1648,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il a dépensé le PIB de la Guyane mais au moins sa tenue est très jolie !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 119,
@@ -1544,7 +1662,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Cela fait maintenant 30 jours qu’il est coincé dans les backrooms, mais apparemment il s’y sent bien.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 120,
@@ -1557,7 +1676,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Ça fait 3 jours qu’elle pédale après celui qui a osé voler sa recette de crêpes aux huîtres.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 121,
@@ -1570,7 +1690,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "On espère pour lui qu’il gardera sa tête, malgré l’impôt qu’il augmente chaque année.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 122,
@@ -1583,7 +1704,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Le seul cowboy de la ville qui monte un âne et arrive quand même à braquer des banques.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 123,
@@ -1596,7 +1718,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Tout le monde l’appelle “le fast”, même sa copine, mais peut-être pas pour les mêmes raisons.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 124,
@@ -1609,7 +1732,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Si vous trouvez que mes cheveux sont très longs alors attendez de voir en dessous.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 125,
@@ -1622,7 +1746,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "On m’a donné cette délicieuse pomme à Gare du Nord, je peux donc la croquer sans risque !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 126,
@@ -1635,7 +1760,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Tu veux claquer de l’escalope et dégivrer le gigot mon mignon ?",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 127,
@@ -1648,7 +1774,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Elle est très mignonne, mais méfiez-vous : ses sorts préférés sont l’abcès anal et la varicelle.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 128,
@@ -1661,7 +1788,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "J’explorais les catacombes et puis j’ai cramé.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 129,
@@ -1674,7 +1802,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "On peut penser qu’il est très intelligent, mais sachez qu’il a déjà construit un bateau en béton.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 130,
@@ -1687,7 +1816,8 @@
     "official_rate": 30,
     "is_holo": false,
     "quote": "Il voulait être charpentier, mais à cause de sa calvitie, il a dû changer de vocation.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 131,
@@ -1700,7 +1830,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Il a fait pipi sur une voiture de la mafia et a démarré une guerre de gangs qui dure depuis 10 ans.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 132,
@@ -1713,7 +1844,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Moi ? Le cybersexe ? N’importe quoi, trop nul le cybersexe, je vais jamais au cybersexe, moi.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 133,
@@ -1726,7 +1858,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "BRANCARDIER ! J’ai des douleurs dans la nuque, c’est très désagréable ! Et j’ai mal au bidou !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 134,
@@ -1739,7 +1872,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Héros de guerre légendaire (il n’a tiré aucune balle et a poussé quelqu’un pour survivre).",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 135,
@@ -1752,7 +1886,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Oui, c’est un peu comme des combats de chiens sauf que, là, on les garde dans des boules.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 136,
@@ -1765,7 +1900,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Meilleur dresseur du monde mais chômeur et pas de parents.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 137,
@@ -1778,7 +1914,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Pour survivre, il a dû faire des choses horribles, comme boire l’eau du robinet.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 138,
@@ -1791,7 +1928,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Il me reste seulement 18 boîtes de conserve. Je ne tiendrai jamais la journée.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 139,
@@ -1804,7 +1942,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "C’est le tout dernier Call Of neuf sous blister ? Je peux vous le reprendre 2€, si vous voulez.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 140,
@@ -1817,7 +1956,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Il a eu sa première vision avec une tranche de jambon de Bayonne, à l’âge de 9 ans.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 141,
@@ -1830,7 +1970,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Il paraît que Pinoche a embrassé Giselle sur la bouche près du vieux châtaignier.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 142,
@@ -1843,7 +1984,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Il a joué avec un vieil obus trouvé près de la rivière et depuis il est puni.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 143,
@@ -1856,7 +1998,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Le taux de réussite au BAC dans sa classe est de 15 %, et c’est déjà pas mal.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 144,
@@ -1869,7 +2012,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "La réponse est simple : “On ne mange pas avec les doigts.”",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 145,
@@ -1882,7 +2026,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Il a raté son harakiri. Maintenant, il a une sonde urinaire et nettoie les murs du temple.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 146,
@@ -1895,7 +2040,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Autrefois grand maître de kung-fu, il arnaque aujourd’hui les touristes sur le mont Fuji.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 147,
@@ -1908,7 +2054,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Elle a tendance à râler pendant qu’elle bosse et à insulter copieusement Martine dans son dos.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 148,
@@ -1921,7 +2068,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "Les gens sont des porcs. C’est fou ce qu’on peut trouver par terre de nos jours.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 149,
@@ -1934,7 +2082,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "C’est ici que...",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 150,
@@ -1947,7 +2096,8 @@
     "official_rate": 10,
     "is_holo": false,
     "quote": "... tout a commencé.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": null
   },
   {
     "id": 151,
@@ -1960,7 +2110,8 @@
     "official_rate": 2.24,
     "is_holo": true,
     "quote": "C’est le premier à avoir avoué qu’il y avait assez de place pour tout le monde dans cette ville.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_151.webp"
   },
   {
     "id": 152,
@@ -1973,7 +2124,8 @@
     "official_rate": 2.24,
     "is_holo": true,
     "quote": "Il a gagné son duel contre McNuggets. En même temps, c’était pas compliqué, McNuggets était aveugle",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_152.webp"
   },
   {
     "id": 153,
@@ -1986,7 +2138,8 @@
     "official_rate": 2.24,
     "is_holo": true,
     "quote": "Partir en intervention le ventre vide, c’est irresponsable, voire carrément dangereux !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_153.webp"
   },
   {
     "id": 154,
@@ -1999,7 +2152,8 @@
     "official_rate": 2.24,
     "is_holo": true,
     "quote": "Mon bon monsieur, votre femme qui accouche, c’est pas mon problème. Ici, c’est une place réservée.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_154.webp"
   },
   {
     "id": 155,
@@ -2012,7 +2166,8 @@
     "official_rate": 2.24,
     "is_holo": true,
     "quote": "Quand il s’énerve, il est capable de déverser plus de sel que toute la mer Méditerranée.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_155.webp"
   },
   {
     "id": 156,
@@ -2025,7 +2180,8 @@
     "official_rate": 2.24,
     "is_holo": true,
     "quote": "Quand il rage, il a le pouvoir de faire augmenter en flèche votre hypertension artérielle.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_156.webp"
   },
   {
     "id": 157,
@@ -2038,7 +2194,8 @@
     "official_rate": 2.24,
     "is_holo": true,
     "quote": "L’avantage est que, dans sa fromagerie, il peut faire un prout bien odorant en toute discrétion.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_157.webp"
   },
   {
     "id": 158,
@@ -2051,7 +2208,8 @@
     "official_rate": 2.24,
     "is_holo": true,
     "quote": "Jambon, saucisson, terrine, rillettes, mais surtout un excellent boudin qui pue bien comme il faut.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_158.webp"
   },
   {
     "id": 159,
@@ -2064,7 +2222,8 @@
     "official_rate": 2.24,
     "is_holo": true,
     "quote": "Les journaux l’appellent “French Monster” ou “Celui qui a pris une belle tête par Terracid”.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_159.webp"
   },
   {
     "id": 160,
@@ -2077,7 +2236,8 @@
     "official_rate": 2.24,
     "is_holo": true,
     "quote": "Grand entrepreneur et futur astronaute, mais a tendance à égarer les objets offerts par ses amis.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_160.webp"
   },
   {
     "id": 161,
@@ -2090,7 +2250,8 @@
     "official_rate": 1.6,
     "is_holo": true,
     "quote": "On raconte que son navire a coulé dans le sud du Pacifique (à cause du poids de l’or dans la cale).",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_161.webp"
   },
   {
     "id": 162,
@@ -2103,7 +2264,8 @@
     "official_rate": 1.6,
     "is_holo": true,
     "quote": "Il aime l’or, le sang, la bagarre, mais aussi l’odeur des croissants chauds de la boulangerie.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_162.webp"
   },
   {
     "id": 163,
@@ -2116,7 +2278,8 @@
     "official_rate": 1.6,
     "is_holo": true,
     "quote": "Drôle, musclé, chanteur, a-t-il un défaut ? Aucun, sauf son furoncle entre les fesses depuis 2014.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_163.webp"
   },
   {
     "id": 164,
@@ -2129,7 +2292,8 @@
     "official_rate": 1.6,
     "is_holo": true,
     "quote": "J’explorais les catacombes et puis j’ai cramé.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_164.webp"
   },
   {
     "id": 165,
@@ -2142,7 +2306,8 @@
     "official_rate": 1.6,
     "is_holo": true,
     "quote": "Soldat d’élite reconnu, il perd cependant tous ses moyens quand un Russe crie dans son micro.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_165.webp"
   },
   {
     "id": 166,
@@ -2155,7 +2320,8 @@
     "official_rate": 1.6,
     "is_holo": true,
     "quote": "Il faut que je maîtrise mon nova pomme d’amour comme je maîtrise ma vie.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_166.webp"
   },
   {
     "id": 167,
@@ -2168,7 +2334,8 @@
     "official_rate": 1.6,
     "is_holo": true,
     "quote": "Il a œuvré toute sa vie contre l’addiction aux drogues chez les développeurs de jeux.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_167.webp"
   },
   {
     "id": 168,
@@ -2181,7 +2348,8 @@
     "official_rate": 1.6,
     "is_holo": true,
     "quote": "Autrefois YouTuber émérite, Seb vit désormais dans la jungle au sein d’une famille de chimpanzés.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_168.webp"
   },
   {
     "id": 169,
@@ -2194,7 +2362,8 @@
     "official_rate": 0.8,
     "is_holo": true,
     "quote": "C’est le tout dernier Call Of neuf sous blister ? Je peux vous le reprendre 2€, si vous voulez.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_169.webp"
   },
   {
     "id": 170,
@@ -2207,7 +2376,8 @@
     "official_rate": 0.8,
     "is_holo": true,
     "quote": "Il a eu sa première vision avec une tranche de jambon de Bayonne, à l’âge de 9 ans.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_170.webp"
   },
   {
     "id": 171,
@@ -2220,7 +2390,8 @@
     "official_rate": 0.8,
     "is_holo": true,
     "quote": "Il paraît que Pinoche a embrassé Giselle sur la bouche près du vieux châtaignier.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_171.webp"
   },
   {
     "id": 172,
@@ -2233,7 +2404,8 @@
     "official_rate": 0.8,
     "is_holo": true,
     "quote": "Il a joué avec un vieil obus trouvé près de la rivière et depuis il est puni.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_172.webp"
   },
   {
     "id": 173,
@@ -2246,7 +2418,8 @@
     "official_rate": 0.8,
     "is_holo": true,
     "quote": "Pour survivre, il a dû faire des choses horribles, comme boire l’eau du robinet.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_173.webp"
   },
   {
     "id": 174,
@@ -2259,7 +2432,8 @@
     "official_rate": 0.8,
     "is_holo": true,
     "quote": "Il me reste seulement 18 boîtes de conserve. Je ne tiendrai jamais la journée.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_174.webp"
   },
   {
     "id": 175,
@@ -2272,7 +2446,8 @@
     "official_rate": 0.28,
     "is_holo": true,
     "quote": "BRANCARDIER ! J’ai des douleurs dans la nuque, c’est très désagréable ! Et j’ai mal au bidou !",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_175.webp"
   },
   {
     "id": 176,
@@ -2285,7 +2460,8 @@
     "official_rate": 0.28,
     "is_holo": true,
     "quote": "Héros de guerre légendaire (il n’a tiré aucune balle et a poussé quelqu’un pour survivre).",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_176.webp"
   },
   {
     "id": 177,
@@ -2298,7 +2474,8 @@
     "official_rate": 0.28,
     "is_holo": true,
     "quote": "Elle a tendance à râler pendant qu’elle bosse et à insulter copieusement Martine dans son dos.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_177.webp"
   },
   {
     "id": 178,
@@ -2311,7 +2488,8 @@
     "official_rate": 0.28,
     "is_holo": true,
     "quote": "Les gens sont des porcs. C’est fou ce qu’on peut trouver par terre de nos jours.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_178.webp"
   },
   {
     "id": 179,
@@ -2324,7 +2502,8 @@
     "official_rate": 0.08,
     "is_holo": true,
     "quote": "C’est ici que...",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_179.webp"
   },
   {
     "id": 180,
@@ -2337,6 +2516,7 @@
     "official_rate": 0.08,
     "is_holo": true,
     "quote": "... tout a commencé.",
-    "booster_id": 1
+    "booster_id": 1,
+    "holo_mask": "/saison1/Wankul_S1_Holo_180.webp"
   }
 ]

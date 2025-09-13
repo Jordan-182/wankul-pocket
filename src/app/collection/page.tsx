@@ -1,4 +1,4 @@
-import { getOne } from "@/lib/collection/getUserCollection";
+import { getCollection } from "@/service/CollectionService";
 import CollectionContainer from "@/ui/CollectionContainer";
 import { getServerSession } from "next-auth";
 import Link from "next/link";
@@ -14,7 +14,7 @@ export default async function Collection() {
       </>
     );
   }
-  const collection = await getOne(session?.user?.email);
+  const collection = await getCollection(session?.user?.email);
   return (
     <>
       <CollectionContainer collection={collection} />
