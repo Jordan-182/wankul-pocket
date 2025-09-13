@@ -14,7 +14,8 @@ export class CardsModel {
     private _quantity: number,
     private _season: number,
     private _set_name: string,
-    private _user_id?: number
+    private _user_id?: number,
+    private _holo_mask?: string
   ) {}
 
   get id(): number {
@@ -79,5 +80,9 @@ export class CardsModel {
 
   get user_id(): number | undefined {
     return this._user_id;
+  }
+
+  get holo_mask(): string | null | undefined {
+    return this._holo_mask;
   }
 }
