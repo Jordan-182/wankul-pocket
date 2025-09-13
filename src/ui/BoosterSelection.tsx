@@ -90,7 +90,9 @@ export default function BoosterSelection({
       >
         {boosters.map((booster, index) => {
           const isDisabled =
-            booster.id !== boosters[0].id && booster.id !== boosters[1].id;
+            booster.id !== boosters[0].id &&
+            booster.id !== boosters[1].id &&
+            booster.id !== boosters[2].id;
           return (
             <li
               key={booster.id}
