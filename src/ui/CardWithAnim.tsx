@@ -98,6 +98,11 @@ export default function CardWithAnim({ card }: CardWithAnimProps) {
           alt={card.name}
           width={card.rarity === "Terrain" ? 214 : 180}
           height={card.rarity === "Terrain" ? 300 : 251}
+          quality={100}
+          priority={true}
+          style={{
+            imageRendering: "crisp-edges",
+          }}
         />
         {card.holo_mask && (
           <div

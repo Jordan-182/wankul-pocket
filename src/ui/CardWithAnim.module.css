@@ -18,11 +18,18 @@
   will-change: transform;
   transform-style: preserve-3d;
   border-radius: 7px;
+  position: relative;
 
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* Améliorer la netteté de l'image */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    /* Forcer l'accélération matérielle pour une meilleure qualité */
+    transform: translateZ(0);
+    backface-visibility: hidden;
   }
 }
 
@@ -32,6 +39,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 1;
 
   /* Masque via le PNG */
   -webkit-mask-image: var(--holo-url);
@@ -57,10 +65,14 @@
   );
   background-size: 300% 400%;
 
-  /* Plus de blend ici */
-  opacity: 0.5;
+  /* Utiliser un blend mode qui préserve mieux la netteté */
+  mix-blend-mode: overlay;
+  opacity: 0.4;
   pointer-events: none;
 
+  /* Améliorer le rendu */
+  transform: translateZ(0);
+  will-change: background-position;
   transition: background-position 0.1s ease;
 }
 
