@@ -26,33 +26,53 @@
   }
 }
 
-.holoLayer {
+.holoMask {
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
-  height: 419px;
+  width: 100%;
+  height: 100%;
+
+  /* Masque via le PNG */
+  -webkit-mask-image: var(--holo-url);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: 100% 100%;
+
+  mask-image: var(--holo-url);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 100% 100%;
+
+  /* Le dégradé reste confiné dans le masque */
+  background-image: repeating-linear-gradient(
+    330deg,
+    rgba(175, 103, 203, 0.75) 5%,
+    rgba(228, 178, 73, 0.75) 10%,
+    rgba(215, 197, 55, 0.75) 15%,
+    rgba(126, 201, 64, 0.75) 20%,
+    rgba(79, 176, 169, 0.75) 25%,
+    rgba(138, 161, 255, 0.75) 30%,
+    rgba(177, 107, 204, 0.75) 35%
+  );
+  background-size: 300% 400%;
+
+  /* Plus de blend ici */
+  opacity: 0.5;
   pointer-events: none;
-  background: linear-gradient(360deg, #000522 0%, #c1ecf5 100%),
-    radial-gradient(100% 164.72% at 100% 100%, #00ffc2 0%, #ff4d00 100%),
-    radial-gradient(100% 148.07% at 0% 0%, #51d500 0%, #fff500 100%);
-  background-blend-mode: overlay, difference, normal;
-  background-size: 200% 200%;
-  opacity: 0.3;
-  filter: blur(5px);
-  z-index: 2;
+
   transition: background-position 0.1s ease;
 }
 
-.illusion {
+/* .illusion {
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   background: url("/illusion.png") center center / contain;
-  opacity: 0.02;
+  opacity: 0.1;
   mix-blend-mode: difference;
-}
+} */
 
 @keyframes rotateHolo {
   0% {

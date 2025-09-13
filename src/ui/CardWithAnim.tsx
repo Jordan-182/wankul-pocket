@@ -36,7 +36,7 @@ export default function CardWithAnim({ card }: CardWithAnimProps) {
     width: number,
     height: number
   ) => {
-    const holo = el.querySelector(`.${styles.holoLayer}`) as HTMLElement;
+    const holo = el.querySelector(`.${styles.holoMask}`) as HTMLElement;
     if (holo) {
       const posX = (x / width) * 100;
       const posY = (y / height) * 100;
@@ -49,7 +49,7 @@ export default function CardWithAnim({ card }: CardWithAnimProps) {
       "style",
       "transform: rotateX(0deg) rotateY(0deg) scale(1); transition: transform 0.3s ease; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1)"
     );
-    const holo = el.querySelector(`.${styles.holoLayer}`) as HTMLElement;
+    const holo = el.querySelector(`.${styles.holoMask}`) as HTMLElement;
     if (holo) {
       holo.style.backgroundPosition = `50% 50%`;
     }
@@ -82,6 +82,8 @@ export default function CardWithAnim({ card }: CardWithAnimProps) {
   const handleTouchEnd = (event: React.TouchEvent<HTMLDivElement>) => {
     resetTransform(event.currentTarget);
   };
+  {
+  }
   return (
     <div
       className={card.rarity === "Terrain" ? styles.landscape : styles.card}
@@ -97,8 +99,14 @@ export default function CardWithAnim({ card }: CardWithAnimProps) {
           width={card.rarity === "Terrain" ? 214 : 180}
           height={card.rarity === "Terrain" ? 300 : 251}
         />
-        <div className={card.is_holo ? styles.holoLayer : styles.none}></div>
-        <div className={card.is_holo ? styles.illusion : styles.none}></div>
+        {card.holo_mask && (
+          <div
+            className={styles.holoMask}
+            style={
+              { "--holo-url": `url(${card.holo_mask})` } as React.CSSProperties
+            }
+          />
+        )}
       </div>
     </div>
   );
