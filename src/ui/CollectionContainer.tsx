@@ -17,10 +17,12 @@ export default function CollectionContainer({ collection }: Props) {
   const [sort, setSort] = useState("rarity-asc");
   const seasonOne: number = 1;
   const seasonTwo: number = 2;
+  const seasonThree: number = 3;
   const seasonOneTotal: number = 180;
   const seasonTwoTotal: number = 155;
-  const totalCards: number = seasonOneTotal + seasonTwoTotal;
-  const { seasonOneCards, seasonTwoCards } = useMemo(() => {
+  const seasonThreeTotal: number = 180;
+  const totalCards: number = seasonOneTotal + seasonTwoTotal + seasonThreeTotal;
+  const { seasonOneCards, seasonTwoCards, seasonThreeCards } = useMemo(() => {
     const filteredAndSorted = collection
       .filter((card) => card.name.toLowerCase().includes(search.toLowerCase()))
       .sort((a, b) => {
@@ -48,6 +50,9 @@ export default function CollectionContainer({ collection }: Props) {
       ),
       seasonTwoCards: filteredAndSorted.filter(
         (card) => card.season === seasonTwo
+      ),
+      seasonThreeCards: filteredAndSorted.filter(
+        (card) => card.season === seasonThree
       ),
     };
   }, [collection, search, sort]);
@@ -129,10 +134,14 @@ export default function CollectionContainer({ collection }: Props) {
       <nav className={styles.nav}>
         <button onClick={() => scrollToSection("seasonOne")}>Saison 1</button>
         <button onClick={() => scrollToSection("seasonTwo")}>Saison 2</button>
+        <button onClick={() => scrollToSection("seasonThree")}>Saison 3</button>
       </nav>
       <p className={styles.overallCount}>
         Cartes obtenues toutes saisons confondues :{" "}
-        {seasonOneCards.length + seasonTwoCards.length} / {totalCards}
+        {seasonOneCards.length +
+          seasonTwoCards.length +
+          seasonThreeCards.length}{" "}
+        / {totalCards}
       </p>
       <section className={styles.mainContainer}>
         {selectedCard && (
@@ -155,6 +164,13 @@ export default function CollectionContainer({ collection }: Props) {
           Cartes obtenues : {seasonTwoCards?.length} / {seasonTwoTotal}
         </p>
         {renderCards(seasonTwoCards)}
+        <h2 className={styles.season} id="seasonThree">
+          Saison 3 : Battle
+        </h2>
+        <p className={styles.counter}>
+          Cartes obtenues : {seasonThreeCards?.length} / {seasonThreeTotal}
+        </p>
+        {renderCards(seasonThreeCards)}
       </section>
       <button
         onClick={() => scrollToSection("top")}

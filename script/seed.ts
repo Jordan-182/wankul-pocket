@@ -12,6 +12,9 @@ const cards = JSON.parse(fs.readFileSync(cardsPath, "utf-8"));
 const cardsS2Path = path.join(__dirname, "../src/data/wankulCardsS2.json");
 const cardsS2 = JSON.parse(fs.readFileSync(cardsS2Path, "utf-8"));
 
+const cardsS3Path = path.join(__dirname, "../src/data/wankulCardsS3.json");
+const cardsS3 = JSON.parse(fs.readFileSync(cardsS3Path, "utf-8"));
+
 const boostersPath = path.join(__dirname, "../src/data/wankulBoosters.json");
 const boosters = JSON.parse(fs.readFileSync(boostersPath, "utf-8"));
 
@@ -53,7 +56,7 @@ const seed = async () => {
       quote,
       booster_id,
       holo_mask,
-    } of [...cards, ...cardsS2]) {
+    } of [...cards, ...cardsS2, ...cardsS3]) {
       await db.query(
         "INSERT INTO card (name, image_path, card_number, clan, rarity, drop_rate, official_rate, is_holo, quote, booster_id, holo_mask) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
         [
