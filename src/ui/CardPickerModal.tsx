@@ -27,6 +27,8 @@ export default function CardPickerModal({
   const [search, setSearch] = useState("");
   const seasonOne: number = 1;
   const seasonTwo: number = 2;
+  const seasonThree: number = 3;
+  const seasonFour: number = 4;
   const tradableCards = userCards.filter((card) => card.quantity > 1);
 
   useEffect(() => {
@@ -43,16 +45,27 @@ export default function CardPickerModal({
     });
   }, [email, otherEmail, rarity]);
 
-  const { seasonOneCards, seasonTwoCards } = useMemo(() => {
-    const filteredCards = tradableCards.filter((card) =>
-      card.name.toLowerCase().includes(search.toLowerCase())
-    );
+  const { seasonOneCards, seasonTwoCards, seasonThreeCards, seasonFourCards } =
+    useMemo(() => {
+      const filteredCards = tradableCards.filter((card) =>
+        card.name.toLowerCase().includes(search.toLowerCase())
+      );
 
-    return {
-      seasonOneCards: filteredCards.filter((card) => card.season === seasonOne),
-      seasonTwoCards: filteredCards.filter((card) => card.season === seasonTwo),
-    };
-  }, [tradableCards, search]);
+      return {
+        seasonOneCards: filteredCards.filter(
+          (card) => card.season === seasonOne
+        ),
+        seasonTwoCards: filteredCards.filter(
+          (card) => card.season === seasonTwo
+        ),
+        seasonThreeCards: filteredCards.filter(
+          (card) => card.season === seasonThree
+        ),
+        seasonFourCards: filteredCards.filter(
+          (card) => card.season === seasonFour
+        ),
+      };
+    }, [tradableCards, search]);
 
   return (
     <section className={styles.modal}>
@@ -134,6 +147,88 @@ export default function CardPickerModal({
           <div className={styles.cardContainer}>
             {seasonTwoCards.length > 0 ? (
               seasonTwoCards.map((card) => {
+                const matchingCard = compareCards.find((c) => c.id === card.id);
+                return (
+                  <motion.div
+                    key={card.id}
+                    onClick={() => onSelect(card)}
+                    initial={{ opacity: 0, scale: 0.1, translateY: -20 }}
+                    whileInView={{ opacity: 1, scale: 1, translateY: 0 }}
+                  >
+                    <Image
+                      src={card.image_path}
+                      alt={card.name}
+                      height={192}
+                      width={137}
+                    />
+                    <p>{card.name}</p>
+                    <p className={styles.quantity}>{card.quantity}</p>
+                    {matchingCard && matchingCard.quantity > 0 ? (
+                      <div className={styles.possession}>
+                        <Image
+                          src={"/cardsIcon.png"}
+                          alt="Carte déjà obtenue"
+                          height={20}
+                          width={20}
+                        />
+                      </div>
+                    ) : (
+                      ""
+                    )}
+                  </motion.div>
+                );
+              })
+            ) : (
+              <p className={styles.noCard}>
+                Aucune carte trouvée pour procéder à un échange
+              </p>
+            )}
+          </div>
+          <h4 className={styles.season}>Saison 3 : Battle</h4>
+          <div className={styles.cardContainer}>
+            {seasonThreeCards.length > 0 ? (
+              seasonThreeCards.map((card) => {
+                const matchingCard = compareCards.find((c) => c.id === card.id);
+                return (
+                  <motion.div
+                    key={card.id}
+                    onClick={() => onSelect(card)}
+                    initial={{ opacity: 0, scale: 0.1, translateY: -20 }}
+                    whileInView={{ opacity: 1, scale: 1, translateY: 0 }}
+                  >
+                    <Image
+                      src={card.image_path}
+                      alt={card.name}
+                      height={192}
+                      width={137}
+                    />
+                    <p>{card.name}</p>
+                    <p className={styles.quantity}>{card.quantity}</p>
+                    {matchingCard && matchingCard.quantity > 0 ? (
+                      <div className={styles.possession}>
+                        <Image
+                          src={"/cardsIcon.png"}
+                          alt="Carte déjà obtenue"
+                          height={20}
+                          width={20}
+                        />
+                      </div>
+                    ) : (
+                      ""
+                    )}
+                  </motion.div>
+                );
+              })
+            ) : (
+              <p className={styles.noCard}>
+                Aucune carte trouvée pour procéder à un échange
+              </p>
+            )}
+          </div>
+          <h4 className={styles.season}>Saison 4 : Stellar</h4>
+          <div className={styles.cardContainer}>
+            {seasonFourCards.length > 0 ? (
+              seasonFourCards.map((card) => {
                 const matchingCard = compareCards.find((c) => c.id === card.id);
                 return (
                   <motion.div

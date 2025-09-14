@@ -21,8 +21,15 @@ export default function CardModal({ card, onClose }: CardModalProps) {
       <div className={styles.cardInfo}>
         <h2>{card.name}</h2>
         <p className={styles.quote}>{card.quote}</p>
-        <p>Rareté : {card.rarity}</p>
-        <p>Clan : {card.clan}</p>
+        <p>
+          <span className={styles.bold}>Rareté</span> : {card.rarity}
+        </p>
+        <p>
+          <span className={styles.bold}>Set</span> : {card.set_name}
+        </p>
+        <p>
+          <span className={styles.bold}>Clan</span> : {card.clan}
+        </p>
         {card.quantity === 1 ? (
           <p>Possédée en {card.quantity} exemplaire</p>
         ) : (

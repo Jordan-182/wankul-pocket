@@ -17,40 +17,54 @@ export default function CollectionContainer({ collection }: Props) {
   const [sort, setSort] = useState("rarity-asc");
   const seasonOne: number = 1;
   const seasonTwo: number = 2;
+  const seasonThree: number = 3;
+  const seasonFour: number = 4;
   const seasonOneTotal: number = 180;
   const seasonTwoTotal: number = 155;
-  const totalCards: number = seasonOneTotal + seasonTwoTotal;
-  const { seasonOneCards, seasonTwoCards } = useMemo(() => {
-    const filteredAndSorted = collection
-      .filter((card) => card.name.toLowerCase().includes(search.toLowerCase()))
-      .sort((a, b) => {
-        switch (sort) {
-          case "name-asc":
-            return a.name.localeCompare(b.name);
-          case "name-desc":
-            return b.name.localeCompare(a.name);
-          case "rarity-asc":
-            return a.card_number - b.card_number;
-          case "rarity-desc":
-            return b.card_number - a.card_number;
-          case "quantity-asc":
-            return a.quantity - b.quantity;
-          case "quantity-desc":
-            return b.quantity - a.quantity;
-          default:
-            return 0;
-        }
-      });
+  const seasonThreeTotal: number = 180;
+  const seasonFourTotal: number = 180;
+  const totalCards: number =
+    seasonOneTotal + seasonTwoTotal + seasonThreeTotal + seasonFourTotal;
+  const { seasonOneCards, seasonTwoCards, seasonThreeCards, seasonFourCards } =
+    useMemo(() => {
+      const filteredAndSorted = collection
+        .filter((card) =>
+          card.name.toLowerCase().includes(search.toLowerCase())
+        )
+        .sort((a, b) => {
+          switch (sort) {
+            case "name-asc":
+              return a.name.localeCompare(b.name);
+            case "name-desc":
+              return b.name.localeCompare(a.name);
+            case "rarity-asc":
+              return a.card_number - b.card_number;
+            case "rarity-desc":
+              return b.card_number - a.card_number;
+            case "quantity-asc":
+              return a.quantity - b.quantity;
+            case "quantity-desc":
+              return b.quantity - a.quantity;
+            default:
+              return 0;
+          }
+        });
 
-    return {
-      seasonOneCards: filteredAndSorted.filter(
-        (card) => card.season === seasonOne
-      ),
-      seasonTwoCards: filteredAndSorted.filter(
-        (card) => card.season === seasonTwo
-      ),
-    };
-  }, [collection, search, sort]);
+      return {
+        seasonOneCards: filteredAndSorted.filter(
+          (card) => card.season === seasonOne
+        ),
+        seasonTwoCards: filteredAndSorted.filter(
+          (card) => card.season === seasonTwo
+        ),
+        seasonThreeCards: filteredAndSorted.filter(
+          (card) => card.season === seasonThree
+        ),
+        seasonFourCards: filteredAndSorted.filter(
+          (card) => card.season === seasonFour
+        ),
+      };
+    }, [collection, search, sort]);
 
   function scrollToSection(id: string) {
     const element = document.getElementById(id);
@@ -129,10 +143,16 @@ export default function CollectionContainer({ collection }: Props) {
       <nav className={styles.nav}>
         <button onClick={() => scrollToSection("seasonOne")}>Saison 1</button>
         <button onClick={() => scrollToSection("seasonTwo")}>Saison 2</button>
+        <button onClick={() => scrollToSection("seasonThree")}>Saison 3</button>
+        <button onClick={() => scrollToSection("seasonFour")}>Saison 4</button>
       </nav>
       <p className={styles.overallCount}>
         Cartes obtenues toutes saisons confondues :{" "}
-        {seasonOneCards.length + seasonTwoCards.length} / {totalCards}
+        {seasonOneCards.length +
+          seasonTwoCards.length +
+          seasonThreeCards.length +
+          seasonFourCards.length}{" "}
+        / {totalCards}
       </p>
       <section className={styles.mainContainer}>
         {selectedCard && (
@@ -155,6 +175,20 @@ export default function CollectionContainer({ collection }: Props) {
           Cartes obtenues : {seasonTwoCards?.length} / {seasonTwoTotal}
         </p>
         {renderCards(seasonTwoCards)}
+        <h2 className={styles.season} id="seasonThree">
+          Saison 3 : Battle
+        </h2>
+        <p className={styles.counter}>
+          Cartes obtenues : {seasonThreeCards?.length} / {seasonThreeTotal}
+        </p>
+        {renderCards(seasonThreeCards)}
+        <h2 className={styles.season} id="seasonFour">
+          Saison 4 : Stellar
+        </h2>
+        <p className={styles.counter}>
+          Cartes obtenues : {seasonFourCards?.length} / {seasonFourTotal}
+        </p>
+        {renderCards(seasonFourCards)}
       </section>
       <button
         onClick={() => scrollToSection("top")}

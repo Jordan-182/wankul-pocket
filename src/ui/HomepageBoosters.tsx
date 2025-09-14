@@ -15,7 +15,10 @@ export function HomepageBoosters({ boosters }: { boosters: BoosterModel[] }) {
             <li
               key={booster.season}
               className={`${styles.boosterItem} ${
-                booster.name !== "Origins" && booster.name !== "Campus"
+                booster.name !== "Origins" &&
+                booster.name !== "Campus" &&
+                booster.name !== "Battle" &&
+                booster.name !== "Stellar"
                   ? styles.disabled
                   : ""
               }`}
