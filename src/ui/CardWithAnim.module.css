@@ -1,6 +1,6 @@
 .card {
-  width: 180px;
-  height: 251px;
+  width: 251px;
+  height: 350px;
   perspective: 1000px;
 }
 
@@ -102,14 +102,7 @@
   display: none;
 }
 
-@media screen and (min-width: 900px) {
-  .modal {
-    height: var(--landingPageHeight);
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-  }
-
+@media screen and (min-width: 1000px) {
   .contentCard {
     display: flex;
     justify-content: flex-end;
@@ -128,8 +121,26 @@
 
   .landscape,
   .card {
-    margin-right: 2rem;
+    height: 488px;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .modal {
+    gap: 1rem;
+  }
+  .landscape,
+  .card {
     height: 419px;
     width: 300px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .landscape,
+  .card {
+    width: 287px;
+    height: 400px;
   }
 }

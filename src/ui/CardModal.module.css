@@ -1,3 +1,7 @@
+.bold {
+  font-weight: bold;
+}
+
 .modal {
   position: absolute;
   top: var(--headerHeight);
@@ -37,25 +41,44 @@
 }
 
 .cardInfo {
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 2rem;
+  padding: 0 0.5rem;
+  h2 {
+    line-height: 1.2;
+  }
+  p {
+    line-height: 1.2;
+  }
 }
 
 .quote {
   font-style: italic;
   line-height: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 @media screen and (min-width: 900px) {
   .modal {
     height: var(--landingPageHeight);
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .modal {
     flex-direction: row;
     justify-content: center;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .modal {
     gap: 2rem;
   }
 }
