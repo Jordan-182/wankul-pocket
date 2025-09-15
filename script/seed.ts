@@ -40,7 +40,7 @@ const seed = async () => {
     await db.query("DELETE FROM booster");
     // await db.query("DELETE FROM quest");
     await db.query("ALTER TABLE card AUTO_INCREMENT = 1");
-    await db.query("ALTER TABLE booster AUTO_INCREMENT = 1");
+    await db.query("ALTER TABLE booster AUTO_INCREMENT = 0");
     // await db.query("ALTER TABLE quest AUTO_INCREMENT = 1");
 
     for (const { name, image, season, set_name } of boosters) {
