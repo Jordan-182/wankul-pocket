@@ -17,7 +17,7 @@ export default async function BoosterPage() {
   }
   return (
     <div className={styles.container}>
-      <BoosterSelection boosters={boosters} />
+      <BoosterSelection boosters={boosters.slice(1)} />
     </div>
   );
 }

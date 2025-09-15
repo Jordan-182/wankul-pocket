@@ -8,8 +8,8 @@ import { getCollection } from "@/service/CollectionService";
 import { getAll } from "@/service/TradeService";
 import { HomepageBoosters } from "@/ui/HomepageBoosters";
 import { HomepageCollection } from "@/ui/HomepageCollection";
-import HomepageTrade from "@/ui/HomepageTrade";
 import { HomepageNotifications } from "@/ui/HomepageNotifications";
+import HomepageTrade from "@/ui/HomepageTrade";
 import { getServerSession } from "next-auth";
 import Image from "next/image";
 import Link from "next/link";
@@ -53,7 +53,7 @@ export default async function Homepage() {
   const components = [
     <HomepageTrade key="trade" trade={displayedTrade} />,
     <HomepageCollection key="collection" collection={collection} />,
-    <HomepageBoosters key="boosters" boosters={boosters} />,
+    <HomepageBoosters key="boosters" boosters={boosters.slice(1)} />,
   ];
 
   return (
