@@ -1,5 +1,12 @@
 [
   {
+    "id": 0,
+    "name": "Hors série",
+    "image": "/public/cardVerso.png",
+    "season": 0,
+    "set_name": "Hors série"
+  },
+  {
     "id": 1,
     "name": "Origins",
     "image": "/booster/boosterS1Recto.webp",
