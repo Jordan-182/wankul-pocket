@@ -21,8 +21,8 @@ const cardsS4 = JSON.parse(fs.readFileSync(cardsS4Path, "utf-8"));
 const cardsHSPath = path.join(__dirname, "../src/data/wankulCardsHS.json");
 const cardsHS = JSON.parse(fs.readFileSync(cardsHSPath, "utf-8"));
 
-const boostersPath = path.join(__dirname, "../src/data/wankulBoosters.json");
-const boosters = JSON.parse(fs.readFileSync(boostersPath, "utf-8"));
+// const boostersPath = path.join(__dirname, "../src/data/wankulBoosters.json");
+// const boosters = JSON.parse(fs.readFileSync(boostersPath, "utf-8"));
 
 // const questsPath = path.join(__dirname, "../src/data/wankulQuests.json");
 // const quests = JSON.parse(fs.readFileSync(questsPath, "utf-8"));
@@ -43,12 +43,12 @@ const seed = async () => {
     await db.query("ALTER TABLE booster AUTO_INCREMENT = 0");
     // await db.query("ALTER TABLE quest AUTO_INCREMENT = 1");
 
-    for (const { name, image, season, set_name } of boosters) {
-      await db.query(
-        "INSERT INTO booster (name, image, season, set_name) VALUES (?, ?, ?, ?)",
-        [name, image, season, set_name]
-      );
-    }
+    // for (const { name, image, season, set_name } of boosters) {
+    //   await db.query(
+    //     "INSERT INTO booster (name, image, season, set_name) VALUES (?, ?, ?, ?)",
+    //     [name, image, season, set_name]
+    //   );
+    // }
 
     for (const {
       name,
