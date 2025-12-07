@@ -1,6 +1,6 @@
 import { CollectionProvider } from "@/context/CollectionContext";
-import { OpenedCardsProvider } from "@/context/OpenedCardsContext";
 import { FriendListProvider } from "@/context/FriendListContext";
+import { OpenedCardsProvider } from "@/context/OpenedCardsContext";
 import { QuestProgressProvider } from "@/context/QuestProgressContext";
 import { UserProvider } from "@/context/UserContext";
 import { DisplayRandomWankul } from "@/ui/DisplayRandomWankul";
@@ -20,21 +20,12 @@ export const metadata: Metadata = {
     description: "Collectionne les cartes Wankul et échange les avec tes amis!",
     url: "https://www.wankulpocket.fr/",
     siteName: "Wankul Pocket",
-    images: [
-      {
-        url: "https://www.wankulpocket.fr/OGImage.png",
-        width: 1200,
-        height: 630,
-        alt: "Aperçu de Wankul Pocket",
-      },
-    ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Wankul Pocket",
     description: "Collectionne les cartes Wankul et échange les avec tes amis!",
-    images: ["https://www.wankulpocket.fr/OGImage.png"],
   },
 };
 
@@ -51,16 +42,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <head>
-        <meta
-          property="og:image"
-          content="https://www.wankulpocket.fr/OGImage.png"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.wankulpocket.fr/OGImage.png"
-        />
-      </head>
       <body className={`${jaldi.variable}`}>
         <SessionWrapper>
           <UserProvider>
