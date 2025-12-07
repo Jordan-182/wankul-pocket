@@ -3,7 +3,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="https://www.wankulpocket.fr/OGImage.png" alt="Wankul Pocket Banner" width="100%" />
+  <img src="./public/OGImage.png" alt="Wankul Pocket Banner" width="100%" />
 </p>
 
 **Une application web de collection de cartes Wankul avec système d'échange et d'objectifs**
