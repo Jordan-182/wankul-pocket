@@ -8,8 +8,8 @@
 
 **Une application web de collection de cartes Wankul avec système d'échange et d'objectifs**
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.3.6-black?logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19.0.1-blue?logo=react)](https://reactjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.3.8-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.0.2-blue?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-2-orange?logo=mysql)](https://www.mysql.com/)
 
